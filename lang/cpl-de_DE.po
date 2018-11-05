@@ -1,0 +1,274 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Complot Contact 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-26 15:25+0200\n"
+"PO-Revision-Date: 2018-09-05 09:27+0200\n"
+"Last-Translator: Poiz Campbell <poizcampbell777@gmail.com>\n"
+"Language-Team: Poiz Campbell <poizcampbell777@gmail.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../ComplotContact.php:49 ../ComplotContact.php:50 ../ComplotContact.php:65
+msgid "Contact Cards"
+msgstr "Contact Cards"
+
+#: ../ComplotContact.php:66 ../ComplotContact.php:67
+msgid "Contact Card"
+msgstr "Contact Card"
+
+#: ../ComplotContact.php:68 ../ComplotContact.php:72
+msgid "New Contact"
+msgstr "Neue Contact"
+
+#: ../ComplotContact.php:69
+msgid "New Contact Card"
+msgstr "Neue Contact Card"
+
+#: ../ComplotContact.php:70
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: ../ComplotContact.php:71
+msgid "Edit Contact Card"
+msgstr "Edit Contact Card"
+
+#: ../ComplotContact.php:73 ../ComplotContact.php:74
+msgid "View Contact Card"
+msgstr "View Contact Card"
+
+#: ../ComplotContact.php:75
+msgid "Search Contact Card"
+msgstr "Search Contact Card"
+
+#: ../ComplotContact.php:76
+msgid "No Contact Card found"
+msgstr "Keine Contact Card gefunden"
+
+#: ../ComplotContact.php:77
+msgid "No Contact Card found in Trash"
+msgstr "No Contact Card found in Trash"
+
+#: ../ComplotContact.php:78
+msgid "Parent Contact Card"
+msgstr "Parent Contact Card"
+
+#: Vos contacts, Direction, Personne de Contact personnes contact
+#: ../ComplotContact.php:279
+msgid "Ansprechpartner"
+msgstr "Ansprechpartner"
+
+#: ../ComplotContact.php:307
+msgid "Mail"
+msgstr "Mail"
+
+#: ../ComplotContact.php:527
+msgid "Contact Card Settings"
+msgstr "Contact Card Settings"
+
+#: ../ComplotContact.php:528
+msgid "Complot Contact"
+msgstr "Complot Contact"
+
+msgid "Besuchen Sie uns!"
+msgstr "Besuchen Sie uns!"
+
+msgid "Ausstellung"
+msgstr "Ausstellung"
+
+msgid "Ausstellung Boswil"
+msgstr "Ausstellung Boswil"
+
+msgid "Ausstellung Cheseaux"
+msgstr "Ausstellung Cheseaux"
+
+msgid "Öffnungszeiten"
+msgstr "Öffnungszeiten"
+
+msgid "Montag - Freitag"
+msgstr "Montag - Freitag"
+
+msgid "Produkte"
+msgstr "Produkte"
+
+msgid "Kontakt"
+msgstr "Kontakt"
+
+msgid "Samstag nach Vereinbarung"
+msgstr "Samstag nach Vereinbarung"
+
+msgid "Verkauf und Beratung"
+msgstr "Verkauf und Beratung"
+
+msgid "Auftragsbearbeitung / Fakturierung"
+msgstr "Auftragsbearbeitung / Fakturierung"
+
+msgid "Telefonzentrale / Empfang / Prospekte"
+msgstr "Telefonzentrale / Empfang / Prospekte"
+
+msgid "Lager / Montage / Produktion / Reparaturen"
+msgstr "Lager / Montage / Produktion / Reparaturen"
+
+msgid "Empfang / Sekretariat"
+msgstr "Empfang / Sekretariat"
+
+msgid "Beratung und Verkauf"
+msgstr "Verkauf und Beratung"
+
+msgid "Seite"
+msgstr "Seite"
+
+msgid "Seiten"
+msgstr "Seiten"
+
+msgid "Seit"
+msgstr "Seit"
+
+msgid "Prospekte bestellen"
+msgstr "Prospekte bestellen"
+
+msgid "Prospektbestellung"
+msgstr "Prospektbestellung"
+
+msgid "Ihrer Bestellung wurde erfolgreich gesendet"
+msgstr "Ihrer Bestellung wurde erfolgreich gesendet"
+
+msgid "Vielen Dank"
+msgstr "Vielen Dank"
+
+msgid "Online Katalog"
+msgstr "Online Katalog"
+
+msgid "Prospekte"
+msgstr "Prospekte"
+
+msgid "Bestellen"
+msgstr "Bestellen"
+
+msgid "Bitte überprüfen Sie die markierten Texte/Felder unten für mögliche Fehler."
+msgstr "Bitte überprüfen Sie die markierten Texte/Felder unten für mögliche Fehler."
+
+msgid "Wählen"
+msgstr "Wählen"
+
+msgid "Anrede"
+msgstr "Anrede"
+
+msgid "Vorname / Name"
+msgstr "Vorname / Name"
+
+#, fuzzy
+#| msgid "Mail"
+msgid "E-Mail"
+msgstr "Mail"
+
+msgid "Telefon"
+msgstr "Telefon"
+
+msgid "Adresse"
+msgstr "Adresse"
+
+msgid "Firma"
+msgstr "Firma"
+
+msgid "PLZ / Ort"
+msgstr "PLZ / Ort"
+
+msgid "Stadt"
+msgstr "Stadt"
+
+msgid "Kanton"
+msgstr "Kanton"
+
+msgid "Möchten Sie weitere Prospekte bestellen? <span class='pz-hint'>(max. 10 Stück)</span>"
+msgstr "Möchten Sie weitere Prospekte bestellen? <span class=‘pz-hint’>(max. 10 Stück)</span>"
+
+msgid "Newsletter abonnieren? <span class='pz-hint'>Erlauben Sie sich, unseren Newsletter zu erhalten?<br />Sie können sich auch jederzeit kostenlos abmelden.</span>"
+msgstr "Newsletter abonnieren? <span class=‘pz-hint’>Erlauben Sie sich, unseren Newsletter zu erhalten?<br />Sie können sich auch jederzeit kostenlos abmelden.</span>"
+
+msgid "Bemerkungen"
+msgstr "Bemerkungen"
+
+msgid "Herunterladen"
+msgstr "Herunterladen"
+
+msgid "«Ich bin damit einverstanden, dass meine E-Mail-Adresse für Werbezwecke der Firma Uninorm AG verwendet wird.»"
+msgstr "«Ich bin damit einverstanden, dass meine E-Mail-Adresse für Werbezwecke der Firma Uninorm AG verwendet wird.»"
+
+msgid "Ja"
+msgstr "Ja"
+
+msgid "Nein"
+msgstr "Nein"
+
+msgid "Herr"
+msgstr "Herr"
+
+msgid "Frau"
+msgstr "Frau"
+
+msgid ""
+"Schauen Sie sich unsere Produkte live vor Ort in einer unserer grossen Ausstellungen in Boswil oder Cheseaux an.\n"
+"Überzeugen Sie sich von der Qualität und Ausführung unserer grossen Produktepalette. Die Ausstellungen sind jederzeit offen und frei zugänglich.\n"
+"Unsere Spezialisten beraten Sie gerne – auch bei Ihnen zuhause. Rufen Sie uns an und vereinbare Sie einen Termin mit einem unserer Verkaufsberater."
+msgstr "Schauen Sie sich unsere Produkte live vor Ort in einer unserer grossen Ausstellungen in Boswil oder Cheseaux an. Überzeugen Sie sich von der Qualität und Ausführung unserer grossen Produktepalette. Die Ausstellungen sind jederzeit offen und frei zugänglich. Unsere Spezialisten beraten Sie gerne – auch bei Ihnen zuhause. Rufen Sie uns an und vereinbaren Sie einen Termin mit einem unserer Verkaufsberater."
+
+msgid "Fly-out text"
+msgstr ""
+"Schauen Sie sich unsere Produkte live vor Ort in einer unserer grossen Ausstellungen in Boswil oder Cheseaux an.\n"
+"Überzeugen Sie sich von der Qualität und Ausführung unserer grossen Produktepalette. Die Ausstellungen sind jederzeit offen und frei zugänglich.\n"
+"Unsere Spezialisten beraten Sie gerne – auch bei Ihnen zuhause. Rufen Sie uns an und vereinbaren Sie einen Termin mit einem unserer Verkaufsberater"
+
+msgid "Activate VCard Download"
+msgstr "VCard Download aktivieren"
+
+msgid "Render un-grouped Card Entries"
+msgstr "Ungruppierte Karteneinträge zeigen"
+
+msgid "Display Group Title above each Group"
+msgstr "Gruppentitel über jeder Gruppe anzeigen"
+
+msgid "Show Position on the Flip-Side of Card"
+msgstr "Zeige Position auf der Rückseite der Karte"
+
+msgid "Show Phone-Number on Reverse Sided"
+msgstr "Zeige Telefonnummer auf der Rückseite"
+
+msgid "Max. Number of Cards Per Row"
+msgstr "Max. Anzahl der Karten pro Reihe"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "No"
+msgstr "Nein"
+
+msgid "Save Changes"
+msgstr "Save Changes"
+
+msgid "First go to the Contact Card Menu <i class='wp-menu-image dashicons-before dashicons-id'></i> & select the «Team Group» Option to create Individual Categories (Team Groups)"
+msgstr "Gehen Sie zuerst zum « Contact Card-Menü» <i class=‘wp-menu-image dashicons-before dashicons-id’></i> und wählen Sie die Option «Team-Gruppe», um einzelne Kategorien (Team-Gruppen) zu erstellen."
+
+msgid "Then add Contacts as needed. After that, simply enter the Shortcode <strong>[contact_cards group='Group Name']</strong>. Where <strong>group</strong> is the Group you created using the «Team Group» Taxonomy."
+msgstr "Fügen Sie dann Kontakte nach Bedarf hinzu. Danach geben Sie einfach den Shortcode ein <strong>[contact_cards group = ‘Group Name’]</strong>. Wobei <strong>group</strong> die Gruppe ist, die Sie mithilfe der Taxonomie “Team Group” erstellt haben."
+
+msgid "This Plugin also allows you to download the Contact-Person's platform-independent VCard, hence the name: <strong>Contact Card</strong>. Rolling the mouse over the Thumbnail flips the backside of the Image where all Contact information are rendered"
+msgstr "Mit diesem Plugin können Sie auch die plattformunabhängige VCard der Kontaktperson herunterladen, daher der Name: <strong>Contact Card</strong>. Wenn Sie mit der Maus über das Miniaturbild fahren, wird die Rückseite des Bildes umgedreht, auf der alle Kontaktinformationen wiedergegeben werden"
+
+msgid "Usage Instructions"
+msgstr "Gebrauchsanweisung"
+
+msgid "Configuration Pane"
+msgstr "Konfigurationsfenster"
+
+msgid "Mini-Profile"
+msgstr "Mini-Profil"
+
+msgid "<strong>Important:</strong><br>This Field is for Internal use only. <br>It is not intended to be displayed on the Frontend! You may thus leave it blank."
+msgstr "<strong> Wichtig: </strong> <br> Dieses Feld ist nur für den internen Gebrauch bestimmt. <br> Es ist nicht vorgesehen, auf dem Frontend angezeigt zu werden! Sie können es daher leer lassen."

@@ -1,0 +1,58 @@
+/* ==========================================================================
+   Templates
+   ========================================================================== */
+@import 'settings';
+
+%wrap {
+  width: 100%;
+  max-width: $screen-width-default;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+%wrap-no-padding {
+  width: 100%;
+  max-width: $screen-width-default;
+  margin: 0 auto;
+  padding: 0;
+}
+
+%content-wrap-no-padding {
+  width: 100%;
+  max-width: $content-width-default;
+  margin: 0 auto;
+  padding: 0;
+}
+
+%fix_float{
+  *zoom:1;
+  &:before, &:after{
+    content:"";
+    display:table;
+  }
+  &:after{
+    clear:both;
+  }
+}
+
+%response_tmpl_box{
+  width:100%;
+  float:none;
+  margin:0;
+}
+
+%dark_box_shadow{
+  -webkit-box-shadow: -5px 5px 9px -1px rgba(0,0,0,0.80);
+  -moz-box-shadow: -5px 5px 9px -1px rgba(0,0,0,0.80);
+  box-shadow: -5px 5px 9px -1px rgba(0,0,0,0.80);
+}
+
+%response_tmpl_img{
+  width:100%;
+  float:none;
+  margin:0;
+  img, .full_pane_pix{
+	width:100%;
+  }
+}
+

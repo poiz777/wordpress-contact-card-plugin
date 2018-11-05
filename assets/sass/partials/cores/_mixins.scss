@@ -1,0 +1,30 @@
+/* ==========================================================================
+   Mixins
+   ========================================================================== */
+@import 'settings';
+
+@mixin font-smoothing($value: on) {
+	@if $value == on {
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	} @else {
+		-webkit-font-smoothing: subpixel-antialiased;
+		-moz-osx-font-smoothing: auto;
+	}
+}
+
+@mixin respond-to($media) {
+	@if $media == small-screens {
+		@media screen and (max-width: $screen-width-small) {
+			@content;
+		}
+	} @else if $media == medium-screens {
+		@media screen and (max-width: $screen-width-medium) {
+			@content;
+		}
+	} @else if $media == big-screens {
+		@media screen and (max-width: $screen-width-default) {
+			@content;
+		}
+	}
+}

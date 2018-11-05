@@ -1,0 +1,455 @@
+@import 'partials/cores/settings';
+@import 'partials/cores/mixins';
+@import 'partials/cores/templates';
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  border-color: rgba(160, 160, 49, 0.47);
+  border-style: solid;
+  border-width: 1px 0 1px 0;
+  p {
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
+
+h3{
+  &.pz-settings-heading {
+    background: $pink_shade;
+    color: white;
+    padding: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 20px 10px 0;
+  }
+}
+
+span{
+  &.pz-complot {
+    color: black;
+    font-weight: 600;
+  }
+}
+
+label{
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.pz-hidden {
+  display: none;
+}
+
+.form-group {
+  margin-bottom: 5px;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.no-lr-pad {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no_padding {
+  padding: 0 !important;
+}
+
+.display_none {
+  display: none !important;
+}
+
+.list-group-item {
+  border: solid 1px rgba(181, 63, 180, 0.15);
+}
+
+.pz-heading-title {
+  background: $pink_shade;
+  padding: 15px;
+  color: white;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  border: solid 1px white;
+  margin-bottom: 2px;
+  line-height: 1.3;
+}
+
+.pz-cat-title span,
+.pz-link-wrapper span {
+  text-decoration: none;
+}
+
+.pz-search-group {
+  margin-bottom: 3px;
+  .fa{
+    &.fa-search{
+      &.pz-search-icon {
+        position: absolute;
+        top: 19px;
+        font-size: 1.25em;
+        color: $pink_shade;
+        cursor: pointer;
+        right: 25px;
+      }
+    }
+  }
+}
+
+.pz-admin-icon{
+  &.fa {
+    display: block;
+    font-size: 18px;
+    padding: 25% 10%;
+    height: 100%;
+    margin: auto auto;
+  }
+}
+
+.pz-admin-list-box {
+  box-sizing: border-box;
+  padding: 0 20px 0 0;
+  .pz-admin-list-group{
+    margin: 0;
+    .list-group-item{
+      &.pz-admin-list-item {
+        box-sizing: border-box;
+        cursor: pointer;
+        transition: all 0.5s;
+        color: $pink_shade;
+        position: relative;
+        display: block;
+        padding: 10px 15px;
+
+        &:hover,
+        &.active{
+          background: $violet_shade; //$pink_shade;
+          color: white;
+          border: none;
+          a{
+            text-decoration: none;
+            color: white;
+          }
+          &.active{
+            a{
+              color: white;
+              background: $violet_shade !important;
+            }
+          }
+        }
+
+        a{
+          text-decoration: none;
+          color: $pink_shade;
+        }
+
+      }
+    }
+  }
+}
+
+.pz-cat-title span.pz-action-link,
+.pz-link-wrapper span.pz-action-link {
+  cursor: pointer;
+  color: $pink_shade;
+}
+
+.pz-cat-title span.pz-action-link:hover,
+.pz-link-wrapper span.pz-action-link:hover {
+  color: $light_blue;
+}
+
+.pz-admin-list-box{
+  .pz-admin-list-group{
+    .list-group-item{
+      &.pz-admin-list-item{
+        .pz-text-box{
+          display: block;
+          text-align: center;
+        }
+        .pz-icon-box {
+          display: block;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+.meta-box-helper{
+  box-sizing: border-box;
+  padding: 20px 0;
+
+  &.pz-content-block {
+    form {
+      padding: 20px 15px;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 4px;
+      border: solid 2px rgba(181, 63, 180, 0.15);
+
+      label {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+      }
+
+      div{
+        box-sizing: border-box;
+      }
+    }
+
+    input[type=submit] {
+      width: 10%;
+      float: right;
+      margin-right: 15px;
+    }
+
+    div {
+      box-sizing: border-box;
+    }
+
+    a{
+      color: $pink_shade;
+      &:hover {
+        color: $light_blue;
+      }
+    }
+
+    .pz-settings-heading-box{
+      .pz-setting-heading,
+      &.col-md-12 .pz-setting-heading{
+        background: $pink_shade;
+        color: white;
+        padding: 8px;
+        box-sizing: border-box;
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin: 0 20px 10px 0;
+      }
+
+    }
+
+    .pz-settings-footer-box {
+      padding: 20px;
+      box-sizing: border-box;
+      background: $pink_shade;
+      margin: 20px 20px 0 0;
+      margin-right: 20px;
+
+      .pz-logo-box{
+        img {
+          float: right;
+        }
+      }
+
+      .pz-copyright-box {
+        padding-top: 10px;
+        color: white;
+      }
+    }
+  }
+}
+
+
+.pz-settings-heading-box{
+  &.col-md-12 .pz-setting-heading,
+  .pz-setting-heading{
+    background: $pink_shade;
+    color: white;
+    padding: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 20px 10px 0;
+
+  }
+}
+
+.pz-global-wrapper{
+  @extend %fix_float;
+  margin: 0 20px 0 0;
+  width: 100%;
+  box-sizing: border-box;
+  float: left;
+
+  .pz-form-wrapper{
+    .pz-core-settings-form{
+      textarea{
+        width: 100% !important;
+        padding: 15px;
+        height: 300px;
+      }
+
+      label {
+        display: block;
+        background: $pale_gray_bg;
+        padding: 10px;
+        border: solid 1px $pale_gray_border;
+
+        .pz-field-hint {
+          padding-top: 10px;
+          display: block;
+          font-style: italic;
+          font-size: 10px;
+          font-weight: 400;
+          color: $gray_50;
+        }
+
+        .pz-label-name{
+          display: block;
+          color: black;
+        }
+      }
+
+      .pz-editor-group{
+        width: 100%;
+        padding: 5px 5px 5px 0;
+      }
+
+      .pz-form-group{
+        width: 100%;
+        padding: 6px 5px;
+
+        input,
+        .form-control{
+          width: 100%;
+          padding: 5px;
+          height: 36px;
+        }
+      }
+
+      .pz-section-right{
+        box-sizing: border-box;
+        width: 25%;
+        margin: 0;
+        padding: 0 10px 0 0;
+        // padding: 5px 35px 0 0;
+        float: left;
+      }
+
+      .pz-section-left{
+        box-sizing: border-box;
+        width: 72.5%;
+        margin: 0 2.5% 0 0;
+        padding: 0;
+        float: left;
+      }
+
+      .pz-hidden {
+        display: none;
+      }
+
+      .pz-field-hint {
+        display: block;
+        font-style: italic;
+        font-size: 10px;
+        font-weight: 400;
+        color: $gray_50;
+      }
+    }
+  }
+
+  .pz-plg-title-head {
+    &.pz-usage-head,
+    &#pz-plg-title-head {
+      background: $pink_shade;
+      text-align: center;
+      text-transform: uppercase;
+      color: white;
+      font-weight: 200;
+      letter-spacing: 1px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin: 0;
+      margin-top: 1px;
+      margin-right: 20px;
+      box-sizing: border-box;
+    }
+    &#pz-usage-head{
+      margin-right: 0; //-5px;
+    }
+  }
+
+  .pz-usage-instruction{
+    box-sizing: border-box;
+    display: block;
+    background: $pale_gray_bg;
+    padding: 10px;
+    border: solid 1px $pale_gray_border;
+    margin-right: 0; //-5px
+  }
+}
+
+.pz-editor-box{
+  @extend %fix_float;
+  margin-bottom: 0; //20px
+}
+#pz-setting-menu-base,
+.pz-setting-menu-base{
+  @extend %fix_float;
+  .pz-settings-footer-box,
+  #pz-settings-footer-box{
+    @extend %fix_float;
+    clear: both;
+    margin-top: 50px;
+    box-sizing: border-box;
+    background: $pink_shade;
+    padding: 20px 30px;
+    margin-right: 20px;
+    color: white;
+
+    .col-md-6{
+      &.pz-copyright-box{
+        width: 50%;
+        float: left;
+        text-align: left;
+        margin: 0;
+        padding: 20px 0 0 0;
+      }
+
+      &.pz-logo-box{
+        width: 50%;
+        float: left;
+        text-align: right;
+        margin: 0;
+        padding: 0;
+        img{
+          width: 120px;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+input.meta-box-helper{
+  box-sizing: border-box;
+  width: 100%;
+  height: 36px;
+  padding: 12px 10px;
+}
+
+.pz_small{
+  display:inline-block;
+  margin-bottom: 2px;
+  color: $violet_shade;
+  font-style: italic;
+}

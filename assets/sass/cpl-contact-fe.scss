@@ -1,0 +1,301 @@
+@import 'partials/cores/settings';
+@import 'partials/cores/mixins';
+@import 'partials/cores/templates';
+
+.pz-contact-main-wrapper{
+  @extend %fix_float;
+  .pz-contact-slot-block{
+    @extend %fix_float;
+  }
+  .pz-contact-wrapper-block {
+    margin-bottom: 0;
+    @extend %fix_float;
+    padding-bottom: 30px;
+    &.section {
+      padding: 25px 0;
+    }
+    .pz-contact-slot{
+      .flip-container{
+        .front, .back{
+          width:100%;
+          display:block;
+        }
+      }
+      .pz-contact-wrap{
+        .pz-pix-pod{
+          img.pz-contact-pix{
+            border-top: solid 5px #0a4195;
+          }
+        }
+
+        .pz-contact-data-pod{
+          .pz-contact-name{
+            margin: 0;
+            padding: 10px 0 5px 0;
+            font-size: 20px;
+            text-transform: uppercase;
+          }
+          .pz-contact-position {
+            color: $gray_75;
+            display: block;
+            font-size: 16px;
+            line-height:18px;
+            padding-bottom:5px;
+          }
+          .pz-v-card,
+          .pz-contact-mail {
+            color: $deep_blue;
+            display: inline-block;
+            font-size: 16px;
+            text-decoration: none;
+            text-outline: none;
+            &:hover{
+              color: $dull_blue;
+            }
+          }
+        }
+      }
+
+      .ww-pix{
+        width:100%;
+        height:auto;
+        cursor:pointer;
+      }
+
+      .back-content{
+        font-size:0.8em;
+        font-weight: 500;
+        color: $gray_60;
+        .pz-contact-position {
+          color: $gray_75;
+          display: block;
+          line-height:18px;
+          padding-bottom:5px;
+        }
+        .pz-v-card,
+        .pz-contact-mail {
+          color: $deep_blue;
+          display: inline-block;
+          font-size: 14px;
+          text-align:center;
+          padding:6px 0;
+          background: none;
+          min-width:100%;
+          box-sizing:border-box;
+          border-top:solid 1px rgba(255, 255, 255, 0.1);
+          border-bottom:solid 1px rgba(255, 255, 255, 0.1);
+          text-decoration:none !important;
+          text-outline: none;
+          transition: all 0.6s ease-in-out;
+          box-shadow: none;
+          &:hover{
+            color: $dull_blue;
+            border-top:solid 1px rgba(255, 255, 255, 0.5);
+            border-bottom:solid 1px rgba(255, 255, 255, 0.5);
+            box-shadow: none;
+          }
+        }
+
+        .pz-v-card{
+          margin-bottom:0;
+          border-bottom:solid 1px rgba(255, 255, 255, 0.01);
+        }
+      }
+
+      /* entire container, keeps perspective */
+      .flip-container {
+        margin:0 auto;
+        perspective: 1000px;
+        transform-style: preserve-3d;
+      }
+      /*  UPDATED! flip the pane when hovered */
+      .flip-container:hover .back {
+        transform: rotateY(0deg);
+      }
+      .flip-container:hover .front {
+        transform: rotateY(180deg);
+      }
+
+      .flip-container, .front, .back {
+        img{
+          width: 100%;
+          height:auto;
+        }
+      }
+
+      /* flip speed goes here */
+      .flipper {
+        transition: 0.6s;
+        transform-style: preserve-3d;
+        position: relative;
+      }
+
+      /* hide back of pane during swap */
+      .front, .back {
+        text-align:center;
+        padding:0;
+        background: $gray_40;
+        margin:0;
+        backface-visibility: hidden;
+        transition: 0.6s;
+        transform-style: preserve-3d;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      /*  UPDATED! front pane, placed above back */
+      .front {
+        position:relative;
+        z-index: 2;
+        transform: rotateY(0deg);
+
+        .pz-contact-name{
+          position:absolute;
+          background: rgba(2, 2, 2, 0.5);
+          border-top: solid 1px rgba(255, 255, 255, 0.65);
+          width:100%;
+          color:white;
+          font-weight:700;
+          font-size:0.95em;
+          text-align:center;
+          bottom:0;
+          margin:0 !important;
+          padding:0 !important;
+        }
+      }
+
+      /* back, initially hidden pane */
+      .back {
+        transform: rotateY(-180deg);
+        .pz-contact-name{
+          border-top: solid 1px rgba(255, 255, 255, 0.65);
+          border-bottom: solid 1px rgba(255, 255, 255, 0.65);
+          width:100%;
+          color:white;
+          font-weight:700;
+          font-size:1.15em;
+          text-align:center;
+          margin:0;
+          padding:0;
+          margin-bottom: 10px;
+        }
+      }
+
+      /*
+          Some vertical flip updates
+      */
+      .vertical.flip-container {
+        position: relative;
+      }
+
+      .vertical .back {
+        transform: rotateX(180deg);
+      }
+
+      .vertical.flip-container:hover .back {
+        transform: rotateX(0deg);
+      }
+
+      .vertical.flip-container:hover .front {
+        transform: rotateX(180deg);
+      }
+
+
+    }
+  }
+  .pz-contact-main-head-pod{
+    .pz-contact-main-heading {
+      padding: 0;
+      margin: 0 0 10px 15px;
+    }
+  }
+}
+
+.pz-contact-wrapper{
+  h1, h2, h3, h4{
+    padding-left: 15px;
+    margin-bottom: 0px;
+  }
+}
+
+.pz-contact{
+  text-align:center;
+  float:left;
+  padding:0 10px;
+  margin:0;
+  &.pz-contact-6{
+    margin-right:0;
+  }
+  img{
+    width: 100%;
+    height:auto;
+  }
+  @include respond-to(medium-screens){
+    width: 47.5%;
+    margin-right:5%;
+    margin-bottom:20px;
+    &.pz-contact-1,
+    &.pz-contact-2,
+    &.pz-contact-3
+    &.pz-contact-4,
+    &.pz-contact-6{
+      clear:right;
+      margin-right:0;
+    }
+
+  }
+  @include respond-to(small-screens){
+    width: 100%;
+    margin-right:0;
+    float:none;
+  }
+}
+
+.pz-back-text-box{
+  position:absolute;
+  top:0;
+  left:0;
+
+  img{
+    opacity:0.1 !important;
+  }
+}
+
+.pz-back-text-box {
+  width:100%;
+  text-align:center;
+  position: absolute;
+  padding:10px;
+  top: 0;
+  left: 0;
+  .pz-back-pix,
+  img {
+    opacity: 0.1 !important;
+    margin-bottom: -5px !important;
+  }
+}
+
+.pz-back-pix{
+  opacity: 0.1 !important;
+  margin-bottom: -5px !important;
+}
+
+.pz-back-pix,
+.pz-contact-pix{
+  margin-bottom: -5px !important;
+}
+
+.row .col img{
+  &.pz-back-pix,
+  &.pz-contact-pix{
+    margin-bottom: -5px !important;
+
+  }
+}
+
+.pz-hidden,
+.pz-hidden-block{
+  display:none;
+}

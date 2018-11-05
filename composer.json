@@ -1,0 +1,28 @@
+{
+    "name"          : "poiz/contact-card",
+    "description"   : "A Plugin that generates a V-Card from Custom-Post Data & does some 3D-Flipping on the Contact-Person's Photo....",
+    "type"          : "project",
+    "authors"       : [
+        {
+            "name"  : "Poiz Campbell",
+            "email" : "poiz@poiz.me"
+        }
+    ],
+
+    "require": {
+        "php"                   : "^5.6 || ^7.0"
+    },
+
+    "require-dev"               : {
+        "symfony/var-dumper"    : "^3.1"
+    },
+
+    "autoload"                  : {
+        "psr-4"                 : {
+            "Code\\"            : "Code/"
+        },
+
+        "psr-0"                 : {
+        }
+    }
+}

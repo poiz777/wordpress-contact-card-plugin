@@ -1,0 +1,426 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Complot Contact 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-26 15:24+0200\n"
+"PO-Revision-Date: 2018-09-05 09:26+0200\n"
+"Last-Translator: Poiz Campbell <poizcampbell777@gmail.com>\n"
+"Language-Team: Poiz Campbell <poizcampbell777@gmail.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.1.1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../ComplotContact.php:49 ../ComplotContact.php:50 ../ComplotContact.php:65
+msgid "Contact Cards"
+msgstr "Contact Cards"
+
+#: ../ComplotContact.php:66 ../ComplotContact.php:67
+msgid "Contact Card"
+msgstr "Contact Card"
+
+#: ../ComplotContact.php:68 ../ComplotContact.php:72
+msgid "New Contact"
+msgstr "Nouveau Contact"
+
+#: ../ComplotContact.php:69
+msgid "NewContact Card"
+msgstr "Nouveau Contact Card"
+
+#: ../ComplotContact.php:70
+msgid "Edit"
+msgstr "Editer"
+
+#: ../ComplotContact.php:71
+msgid "Edit Contact Card"
+msgstr "Editer le Contact Card"
+
+#: ../ComplotContact.php:73 ../ComplotContact.php:74
+msgid "View Contact Card"
+msgstr "Voir le Contact Card"
+
+#: ../ComplotContact.php:75
+msgid "Search Contact Card"
+msgstr "Rechercher le Contact Card"
+
+#: ../ComplotContact.php:76
+msgid "No Contact Card found"
+msgstr "Aucune Contact Card trouvées"
+
+#: ../ComplotContact.php:77
+msgid "No Contact Card found in Trash"
+msgstr "Aucune Contact Card trouvé dans la pubel"
+
+#: ../ComplotContact.php:78
+msgid "Parent Contact Card"
+msgstr "Parent Contact Card"
+
+#: Vos contacts, Direction, Personne de Contact personnes contact
+#: ../ComplotContact.php:279 msgid "Ansprechpartner" msgstr "Personnes
+#: contact:" ../ComplotContact.php:307
+msgid "Mail"
+msgstr "Mail"
+
+#: ../ComplotContact.php:527
+msgid "Contact Card Settings"
+msgstr "Contact Card Settings"
+
+#: ../ComplotContact.php:528
+msgid "Complot Contact"
+msgstr "Complot Contact"
+
+msgid "Besuchen Sie uns!"
+msgstr "Nous rendre visite!"
+
+msgid "Ausstellung"
+msgstr "Exposition"
+
+msgid "Ausstellung Boswil"
+msgstr "Exposition Boswil"
+
+msgid "Ausstellung Cheseaux"
+msgstr "Exposition Cheseaux"
+
+msgid "Öffnungszeiten"
+msgstr "Heures d’ouverture"
+
+msgid "Montag - Freitag"
+msgstr "Lundi - Vendredi"
+
+msgid "Produkte"
+msgstr "Produits"
+
+msgid "Kontakt"
+msgstr "Contact"
+
+msgid "Samstag nach Vereinbarung"
+msgstr "Samedi sur rendez-vous"
+
+#: msgid "Verkauf und Beratung" msgstr "Vente et conseil"
+msgid "Auftragsbearbeitung / Fakturierung"
+msgstr "Traitement des commandes / facturation"
+
+msgid "Telefonzentrale / Empfang / Prospekte"
+msgstr "Standardiste / Réception / Brochures"
+
+msgid "Lager / Montage / Produktion / Reparaturen"
+msgstr "Entrepôt / montage / production / réparation"
+
+msgid "Empfang / Sekretariat"
+msgstr "Réception / secrétaire"
+
+msgid "Beratung und Verkauf"
+msgstr "Vente et conseil"
+
+msgid "Seite"
+msgstr "Page"
+
+msgid "Seiten"
+msgstr "Pages"
+
+msgid "Seit"
+msgstr "Depuis"
+
+msgid "Prospekte bestellen"
+msgstr "Commander des brochures"
+
+msgid "Prospektbestellung"
+msgstr "Commandes des brochures"
+
+msgid "Ihrer Bestellung wurde erfolgreich gesendet"
+msgstr "Votre commande a été reçue"
+
+msgid "Vielen Dank"
+msgstr "Merci beaucoup"
+
+msgid "Online Katalog"
+msgstr "Catalogue en ligne"
+
+msgid "Prospekte"
+msgstr "Brochures"
+
+msgid "Bestellen"
+msgstr "Commander"
+
+msgid "Bitte überprüfen Sie die markierten Texte/Felder unten für mögliche Fehler."
+msgstr "Veuillez vérifier le textes / champs en surbrillance ci-dessous pour les erreurs possibles."
+
+msgid "Wählen"
+msgstr "Choisir"
+
+msgid "Anrede"
+msgstr "Salutation"
+
+msgid "Vorname / Name"
+msgstr "Prénom / Nom"
+
+#, fuzzy
+#| msgid "Mail"
+msgid "E-Mail"
+msgstr "Mail"
+
+msgid "Telefon"
+msgstr "Téléphone"
+
+msgid "Adresse"
+msgstr "Adresse"
+
+msgid "Firma"
+msgstr "Société"
+
+msgid "PLZ / Ort"
+msgstr "Code postal / Ville"
+
+msgid "Stadt"
+msgstr "Canton"
+
+msgid "Kanton"
+msgstr "Kanton"
+
+msgid "Möchten Sie weitere Prospekte bestellen? <span class='pz-hint'>(max. 10 Stück)</span>"
+msgstr "Voulez-vous commander plusieurs brochures? <span class=‘pz-hint’>(Max. 10 pièces)</span>"
+
+msgid "Newsletter abonnieren? <span class='pz-hint'>Erlauben Sie sich, unseren Newsletter zu erhalten?<br />Sie können sich auch jederzeit kostenlos abmelden.</span>"
+msgstr "S’inscrire aux Bulletin (Newsletter)? <span class=‘pz-hint’>Aimerez vous recevoir notre Newsletter?<br />Vous pouvez également vous désabonner à tout moment, gratuitement.</span>"
+
+msgid "Bemerkungen"
+msgstr "Remarques"
+
+msgid "Herunterladen"
+msgstr "Télécharger"
+
+msgid "«Ich bin damit einverstanden, dass meine E-Mail-Adresse für Werbezwecke der Firma Uninorm AG verwendet wird.»"
+msgstr "«Je suis d’accord que mon adresse e-mail peut être utilisé pour la publicité par la société Uninorm AG.»"
+
+msgid "Ja"
+msgstr "Oui"
+
+msgid "Nein"
+msgstr "Non"
+
+msgid "Herr"
+msgstr "Mr"
+
+msgid "Frau"
+msgstr "Mme"
+
+msgid "weiterlesen"
+msgstr "lire la suite"
+
+msgid "Weiterlesen"
+msgstr "Lire la suite"
+
+msgid "Read more"
+msgstr "Lire la suite"
+
+msgid ""
+"Schauen Sie sich unsere Produkte live vor Ort in einer unserer grossen Ausstellungen in Boswil oder Cheseaux an.\n"
+"Überzeugen Sie sich von der Qualität und Ausführung unserer grossen Produktepalette. Die Ausstellungen sind jederzeit offen und frei zugänglich.\n"
+"Unsere Spezialisten beraten Sie gerne – auch bei Ihnen zuhause. Rufen Sie uns an und vereinbare Sie einen Termin mit einem unserer Verkaufsberater."
+msgstr "Découvrez nos produits répondront sur place dans l’une des grandes expositions à Boswil ou Cheseaux. Laissez-vous convaincre de la qualité et la performance de notre gamme de produits. Les expositions sont toujours ouvertes et accessibles gratuitement. Nos spécialistes vous conseilleront - également chez vous. Nous appelez aujourdhui pour profiter de nos conseillers de vente."
+
+msgid "Fly-out text"
+msgstr "Découvrez nos produits répondront sur place dans l’une des grandes expositions à Boswil ou Cheseaux. Laissez-vous convaincre de la qualité et la performance de notre gamme de produits. Les expositions sont toujours ouvertes et accessibles gratuitement. Nos spécialistes vous conseilleront - également chez vous. Nous appelez aujourdhui pour profiter de nos conseillers de vente"
+
+#: DOWNLOADS PAGE «STRINGS TRANSLATION»: START
+msgid "Carports"
+msgstr "Carports"
+
+msgid "Carport Metall"
+msgstr "Carport en métal"
+
+msgid "Fertiggaragen"
+msgstr "Garages préfabriqués"
+
+msgid "Beton Garagen"
+msgstr "Garages en béton"
+
+msgid "Metall Garagen"
+msgstr "Garages en métal"
+
+msgid "Garagentore"
+msgstr "Portes de garage"
+
+msgid "GSW 40-L Teckentrup"
+msgstr "GSW 40-L de Teckentrup"
+
+msgid "Novoferm Schwingtore"
+msgstr "Portes basculantes Novoferm"
+
+msgid "Pfullendorfer Garagentore"
+msgstr "Portes de garage Pfullendorfer"
+
+msgid "Pfullendorfer Kipptore"
+msgstr "Portes basculantes Pfullendorfer"
+
+msgid "Roma Garagentore"
+msgstr "Portes de garage Roma"
+
+msgid "Gartenhäuser"
+msgstr "Pavillons de jardin"
+
+msgid "Gerätehäuser"
+msgstr "Cabanes de jardin"
+
+msgid "Gardenboxx Metall"
+msgstr "Cabane de jardin en métal"
+
+msgid "Gerätehaus Metall"
+msgstr "Abri à outils en métal"
+
+msgid "Gewächshäuser"
+msgstr "Serres"
+
+msgid "Gewächshäuser & Zubehör"
+msgstr "Serres et accessoires"
+
+msgid "Hauseingangstüren"
+msgstr "Portes d’entrée de maison"
+
+msgid "Groke Modellübersicht"
+msgstr "Vue d’ensemble des modèles Groke"
+
+msgid "Groke Türtechnik"
+msgstr "Technique pour les portes Groke"
+
+msgid "Uninorm All-Inclusive 2017"
+msgstr "Uninorm All-Inclusive 2017"
+
+msgid "Uninorm Express 2017"
+msgstr "Uninorm Express 2017"
+
+msgid "Industrietore"
+msgstr "Portes industrielles"
+
+msgid "Alpha Sektionaltore"
+msgstr "Portes sectionnelles Alpha"
+
+msgid "Sammelgaragentore"
+msgstr "Portes pour garages collectifs"
+
+msgid "Pfullendorfer Tor-Systeme"
+msgstr "Systèmes de porte Pfullendorfer"
+
+msgid "Torantriebe"
+msgstr "Automatismes pour portes"
+
+msgid "Marantec Garagentorantriebe"
+msgstr "Automatismes pour garages Marantec"
+
+msgid "Sommer Garagentorantrieb base+"
+msgstr "Automatisme pour portes de garage base+ Sommer"
+
+msgid "Sommer Garagentorantriebe"
+msgstr "Automatismes pour portes de garage Sommer"
+
+msgid "Velounterstände"
+msgstr "Abris à vélos"
+
+msgid "Fahrradüberdachung Rondo"
+msgstr "Abri à vélos Rondo"
+
+#: DOWNLOADS PAGE «STRINGS TRANSLATION»: STOP ... CONTACT START
+msgid "Ansprechpartner"
+msgstr "Interlocuteurs à"
+
+msgid "Beratung / Verkauf"
+msgstr "Vente et conseil à la clientèle"
+
+msgid "Verkauf und Beratung"
+msgstr "Vente et conseil à la clientèle"
+
+msgid "Leiter Verkauf"
+msgstr "Responsable Vente"
+
+msgid "Verkaufsinnendienst"
+msgstr "Service interne de vente"
+
+msgid "Leiterin Verkaufsinnendienst"
+msgstr "Responsable Service interne de vente"
+
+msgid "Leiter Werkstatt + Montage"
+msgstr "Chef d’atelier et du montage"
+
+msgid "Leiter Finanzen"
+msgstr "Responsable Finances"
+
+msgid "Geschäftsleiter"
+msgstr "Directeur"
+
+msgid "Niederlassungsleiter<br>Beratung / Verkauf"
+msgstr "Responsable de filiale<br>Vente et conseil à la clientèle"
+
+msgid "Bitte überprüfen Sie die markierten Texte/Felder unten für mögliche Fehlern"
+msgstr "Veuillez, s'il vous plaît, re-vérifier les textes/champs soulignés ci-dessous pour des erreurs possibles"
+
+msgid "Ihrer Nachricht wurde erfolgreich gesendet"
+msgstr "Votre message a bien été envoyé"
+
+msgid "Attribut"
+msgstr "Attribut"
+
+msgid "Wert"
+msgstr "Valeur"
+
+msgid "Datum"
+msgstr "Date"
+
+msgid "Nachricht aus WebFormular"
+msgstr "Message de WebForm"
+
+#: CONTACT PAGE «STRINGS TRANSLATION»: STOP
+msgid "WAHRHEIT"
+msgstr "VERITÉ"
+
+msgid "Activate VCard Download"
+msgstr "Activer le téléchargement de VCard"
+
+msgid "Render un-grouped Card Entries"
+msgstr "Afficher les entrées de carte non groupées"
+
+msgid "Display Group Title above each Group"
+msgstr "Afficher le titre du groupe au-dessus de chaque groupe"
+
+msgid "Show Position on the Flip-Side of Card"
+msgstr "Afficher la position au dos de la carte"
+
+msgid "Show Phone-Number on Reverse Sided"
+msgstr "Afficher le numéro de téléphone au verso"
+
+msgid "Max. Number of Cards Per Row"
+msgstr "Max. Nombre de cartes par rangée"
+
+msgid "Yes"
+msgstr "Oui"
+
+msgid "No"
+msgstr "Non"
+
+msgid "Save Changes"
+msgstr "Save Changes"
+
+msgid "First go to the Contact Card Menu <i class='wp-menu-image dashicons-before dashicons-id'></i> & select the «Team Group» Option to create Individual Categories (Team Groups)"
+msgstr "Allez d’abord dans le menu «Contact Card» <i class=‘wp-menu-image dashicons-before dashicons-id’></i>de contact et sélectionnez l’option «Groupe d’équipe» pour créer des catégories individuelles (groupes d’équipe)"
+
+msgid "Then add Contacts as needed. After that, simply enter the Shortcode <strong>[contact_cards group='Group Name']</strong>. Where <strong>group</strong> is the Group you created using the «Team Group» Taxonomy."
+msgstr "Ajoutez ensuite les contacts si nécessaire. Ensuite, entrez simplement le Shortcode <strong>contact_cards group = ‘Group Name’]</strong>. Où <strong> group </strong> est le groupe que vous avez créé à l’aide de la taxonomie «Team Group»."
+
+msgid "This Plugin also allows you to download the Contact-Person's platform-independent VCard, hence the name: <strong>Contact Card</strong>. Rolling the mouse over the Thumbnail flips the backside of the Image where all Contact information are rendered"
+msgstr "Ce plugin vous permet également de télécharger la VCard indépendante de la personne-ressource du contact, d’où le nom: <strong>Contact Card</strong>. En faisant glisser la souris sur la vignette, vous retournez l’arrière de l’image où toutes les informations de contact sont affichées"
+
+msgid "Usage Instructions"
+msgstr "Instructions d'utilisation"
+
+msgid "Configuration Pane"
+msgstr "Panneau de configuration"
+
+msgid "Mini-Profile"
+msgstr "Mini profil"
+
+msgid "<strong>Important:</strong><br>This Field is for Internal use only. <br>It is not intended to be displayed on the Frontend! You may thus leave it blank."
+msgstr "<strong> Important: </strong> <br> Ce champ est réservé à un usage interne. <br> Il n’est pas destiné à être affiché sur le Frontend! Vous pouvez donc le laisser vide."
